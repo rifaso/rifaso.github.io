@@ -3,6 +3,7 @@ layout: post
 title:  "RSpec Book (Unofficial) Updated Code Intro"
 date:   2015-06-28 00:11:39
 categories: rspec-book
+comments: true
 ---
 One of my goal's is to get better at testing my code using RSpec. To do so, I decided to pick up '[The RSpec Book][rspec-book]'. I will be going through the book, however since the versions of Ruby and Gems used throughout the book are outdated, I will be updating the code samples to be inline with current versions of Ruby and Gems.
 
