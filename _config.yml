@@ -1,0 +1,12 @@
+# Site settings
+title: Michael Marcel Longerich's Blog
+email: michael@rifaso.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the blog of Michael Marcel Longerich. Not exactly sure what will end up going here but  should be fun to see how it grows and develops.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rifaso.com" # the base hostname & protocol for your site
+twitter_username: mlongerich
+github_username:  mlongerich
+
+# Build settings
+markdown: kramdown
