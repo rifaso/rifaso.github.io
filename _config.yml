@@ -10,3 +10,6 @@ github_username:  mlongerich
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
