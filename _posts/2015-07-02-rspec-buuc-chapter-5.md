@@ -2,7 +2,7 @@
 layout: post
 title:  "RSpec Buuc - Chapter 5"
 date:   2015-07-02 13:34:39
-categories: rspec-buuc ruby rspec
+categories: rspec-buuc
 comments: true
 ---
 Chapter 5 needs updating because of the change from Ruby 1.8 to 1.9 and changes from RSpec 2.0 to 3.0.
@@ -197,9 +197,9 @@ cd/15/spec/codebreaker/game_spec.rb
 21 end
 ```
 
-#Additional Updated Code
+### Additional Updated Code
 
-The following code from previous chapters has been updated because (1) it no longer works by the end of Chapter 5 or (2) renaming `output` to `results` for consistency in code base.
+The following code from previous chapters has been updated because (1) it no longer works by the end of Chapter 5 or (2) renaming 'output' to 'results' for consistency in code base.
 
 ```ruby
 cb/04/lib/codebreaker.rb

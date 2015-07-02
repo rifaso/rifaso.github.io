@@ -2,7 +2,7 @@
 layout: post
 title:  "RSpec Buuc - Chapter 2"
 date:   2015-06-30 14:23:39
-categories: rspec-buuc rspec
+categories: rspec-buuc
 comments: true
 ---
 ### Replace RSpec Should with Expect
