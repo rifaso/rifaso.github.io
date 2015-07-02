@@ -2,9 +2,11 @@
 layout: post
 title:  "RSpec Buuc - Chapter 2"
 date:   2015-06-30 14:23:39
-categories: rspec-buuc
+categories: rspec-buuc rspec
 comments: true
 ---
+### Replace RSpec Should with Expect
+
 Chapter 2 has the first piece of code that needs updating. RSpec is depreciating the `:should` syntax in favor of the `:expect` syntax.
 
 `greeting.should == "Hello RSpec!"`
@@ -23,6 +25,8 @@ With the new expect syntax we rewrite `greeting.should == "Hello RSpec!"` with `
 You may note that we are also using `eq()` instead of `==`. The [RSpec blog][rspec-blog] inditcates that == will give the following warning if warnings are turned on:
 
 >"Useless use of == in void context" 
+
+### Chapter 2 Updated Code
 
 Using the expect syntax and eq(), updates RSpec Book Chapter 2 Code as follows.
 
