@@ -7,7 +7,7 @@ comments: true
 ---
 Chapter 7 needs only minor updates due to reasons previously discussed in [RSpec Buuc - Chapter 2][ch2] and [RSpec Buuc - Chapter 5][ch5]. Specifically, updating to the `:expect` syntax, and changing code refering to 'output' to 'result' in order to avoid conflicts with RSpec's `output` matcher.
 
-### Chapter 6 Updated Code 
+### Chapter 7 Updated Code 
 
 ```ruby
 cb/24/spec/codebreaker/game_spec.rb
