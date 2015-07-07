@@ -7,7 +7,7 @@ comments: true
 ---
 Chapter 8 tells us to run `rspec spec/codebreaker/marker_spec.rb --format nested` which gives us the error:
 
->/Users/michaellon/.rvm/gems/ruby-2.1.1/gems/rspec-core-3.3.1/lib/rspec/core/formatters.rb:172:in `find_formatter': Formatter 'nested' unknown - maybe you meant 'documentation' or 'progress'?. (ArgumentError)
+>'find_formatter': Formatter 'nested' unknown - maybe you meant 'documentation' or 'progress'?. (ArgumentError)
 
 The `nested formatter` was introduced in RSpec 1, in RSpec 2 it was renamed to the `documentation formatter`. Running the following 
 
