@@ -31,7 +31,7 @@ The RSpec Buuc Ruby and Gem version I will be using are:
 * selenium-client-2.9.9
 * rails-4.2.3
 
-I am doing this primarily for myself and my own learning. I am sharing and doing this publically in hopes that  it may be useful to others. 
+I am doing this primarily for myself and my own learning. I am sharing and doing this publically in hopes that it may be useful to others. 
 
 I am by no means an expert, so any feedback would be appreciated. 
 
