@@ -27,10 +27,19 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'rspec-rails'
-  gem 'cucumber-rails'
   gem 'webrat'
 end
+
+group :test do
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+end
 ```
+
+After updating the Gemfile, `bundle install` to install the gems. To then install RSpec and Cucumber do the following:
+
+`$ rails generate rspec:install`
+`$ rails generate cucumber:install`
 
 All code for the RSpec Buuc can be found at this [GitHub repo][rspec-buuc-repo].
 

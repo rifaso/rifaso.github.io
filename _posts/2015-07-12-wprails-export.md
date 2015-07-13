@@ -32,11 +32,9 @@ Next we add RSpec and Cucumber. In our Gemfile we will add the following to our 
 ```
 0  group :development, :test do
 1   gem 'rspec-rails'
-2 end
-3 
-4 group :test do
-5   gem 'cucumber-rails' :require => false
-6   gem 'database-cleaner'
+2   gem 'cucumber-rails' :require => false
+3   gem 'database-cleaner'
+4   gem 'webrat'
 7 end
 ```
 
