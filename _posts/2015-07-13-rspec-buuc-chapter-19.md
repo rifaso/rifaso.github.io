@@ -6,7 +6,7 @@ categories: rspec-buuc
 comments: true
 ---
 
-In Chapter 19 we will only be modifying the gemfile in order to use the most recent versions of rails, rspec-rails, cucumber-rails, and webrat.
+In Chapter 19 we will only be modifying the gemfile in order to use the most recent versions of rails, rspec-rails, cucumber-rails, and capybara. With regards to Capybara, the RSpec book uses Webrat however Cucumber dropped support for it in v0.5, hence the change.
 
 ```ruby
 source 'https://rubygems.org'
@@ -27,7 +27,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'rspec-rails'
-  gem 'webrat'
+  gem 'capybara'
 end
 
 group :test do

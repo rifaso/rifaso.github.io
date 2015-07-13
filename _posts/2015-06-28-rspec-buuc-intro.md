@@ -27,7 +27,7 @@ The RSpec Buuc Ruby and Gem version I will be using are:
 * cucumber-2.0.0
 * cumcumber-rails-1.4.2
 * database_claener-1.4.1
-* webrat-0.7.3
+* capybara-2.4.4
 * selenium-client-2.9.9
 * rails-4.2.3
 
