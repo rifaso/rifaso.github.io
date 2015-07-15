@@ -88,4 +88,4 @@ After this my answer worked.
 
 I will be posting all my code and tests at this [GitHub repo][gh-pe].
 
-[gh-pe][https://github.com/mlongerich/project_euler]
+[gh-pe]:https://github.com/mlongerich/project_euler
