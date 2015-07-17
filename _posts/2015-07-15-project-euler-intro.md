@@ -7,10 +7,12 @@ comments: true
 ---
 So I came across the [Project Euler website][project-euler] today. There are over 500 math problems to be solved using computers. I will be solving these for two reasons. 
 
-1. To practive breaking down problems. 
-2. To practice refactoring after I solve the problem. 
+1. To practive breaking down problems using TDD.
+2. To practice refactoring. 
 
-I will be posting all my code and tests at this [GitHub repo][gh-pe].
+With that said, though I could, I will not be golfing my answers. The goal is clean, readable, maintainable, and extensible code.
+
+I will be posting all my code and tests at this [GitHub repo][gh-pe]. Also, I will be blogging about my process to solve each problem as I complete them.
 
 If you notice any areas where I can refactor or any edge cases I've missed please feel free to comment.
 
